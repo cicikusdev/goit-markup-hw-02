@@ -51,6 +51,7 @@ link:hover {
 .nav-list a {
   text-decoration: none;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .nav-list a:hover {
   color: #404bbf;
