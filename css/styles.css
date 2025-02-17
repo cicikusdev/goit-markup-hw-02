@@ -28,6 +28,7 @@ link:hover {
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -162,4 +163,23 @@ h3 {
 footer {
   background-color: #2e2f42;
   color: white;
+}
+
+footer .footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+footer .footer-logo-st {
+  color: #e7e9fc;
+}
+footer .footer-text {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
