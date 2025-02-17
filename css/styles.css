@@ -3,10 +3,19 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2;
   line-height: 1.5;
   color: #434455;
   background-color: #ffffff;
   margin: 0;
+}
+
+link {
+  color: #434455;
+}
+link:hover {
+  color: #4d5ae5;
 }
 
 /* Header Stilleri */
@@ -26,14 +35,18 @@ body {
 }
 
 .logo {
-  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   font-weight: 700;
-  color: #2e2f42;
+  color: #4d5ae5;
   text-decoration: none;
 }
 
 .logo-accent {
-  color: #ff6b08;
+  color: #2e2f42;
 }
 
 .nav-list {
@@ -42,12 +55,36 @@ body {
   gap: 40px;
 }
 
+.nav-list:hover {
+  color: #4d5ae5;
+}
 .nav-list a {
+  list-style: none;
   text-decoration: none;
   color: #2e2f42;
   font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.nav-list a:hover {
+  color: #404bbf;
+}
+.nav-list a:focus {
+  color: #404bbf;
 }
 
+.contact-info {
+  font-style: normal;
+}
+.contact-info ul li a {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-info ul li a:hover {
+  color: #404bbf;
+}
+.contact-info ul li a:focus {
+  color: #404bbf;
+}
 /* Ana Bölüm */
 /*
   main {
@@ -67,19 +104,35 @@ section {
 }
 
 .hero h1 {
-  font-size: 36px;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 2;
+  line-height: 60px;
   margin-bottom: 20px;
   text-align: center;
 }
 
-/*
-  h1, h2, h3 {
-    font-weight: 700;
-    color: #2e2f42;
-  }
-*/
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 2;
+  line-height: 60px;
+}
 
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 2;
+}
+h3 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2;
+}
 .hero button {
   background-color: #4d5ae5;
   color: white;
@@ -92,7 +145,7 @@ section {
   margin-left: auto;
 }
 .hero button:hover {
-  background-color: #3b4cc0;
+  background-color: #404bbf;
 }
 /*
   button {
