@@ -33,12 +33,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
-.nav-link a:hover,
-.nav-link a:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -182,6 +181,6 @@ section.portfolio h2.portfolio-titletwo {
   letter-spacing: 0.02em;
 }
 
-.footer .footer-logo .footer-accent {
+.footer .footer-logo span {
   color: #2e2f42;
 }
