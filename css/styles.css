@@ -1,21 +1,11 @@
 /* Genel Stiller */
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2;
   line-height: 1.5;
   color: #434455;
   background-color: #ffffff;
   margin: 0;
-}
-
-link {
-  color: #434455;
-}
-link:hover {
-  color: #4d5ae5;
 }
 
 /* Header Stilleri */
@@ -23,19 +13,13 @@ link:hover {
   background-color: #ffffff;
 }
 
-.nav {
-  font-family: "Raleway", sans-serif;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   font-weight: 700;
   color: #4d5ae5;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .logo-accent {
@@ -45,33 +29,28 @@ link:hover {
 .nav-list {
   list-style: none;
   font-weight: 500;
-  letter-spacing: 0.02em;
 }
 
 .nav-list a {
   text-decoration: none;
   color: #2e2f42;
-  letter-spacing: 0.02em;
 }
-.nav-list a:hover {
-  color: #404bbf;
-}
+
+.nav-list a:hover,
 .nav-list a:focus {
   color: #404bbf;
 }
 
 .contact-info {
   font-style: normal;
-  letter-spacing: 0.02em;
 }
-.contact-info .contact-list li a {
+
+.contact-info .contact-list a {
   color: #434455;
-  letter-spacing: 0.02em;
 }
-.contact-info ul li a:hover {
-  color: #404bbf;
-}
-.contact-info ul li a:focus {
+
+.contact-info a:hover,
+.contact-info a:focus {
   color: #404bbf;
 }
 
@@ -82,120 +61,51 @@ link:hover {
   text-align: center;
 }
 
-.hero h1 {
-  font-size: 56px;
-  line-height: 1.07;
-  margin-bottom: 20px;
-  letter-spacing: 0.02em;
-}
 .hero-title {
-  line-height: 1.07;
-}
-h1 {
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
 }
 
-h2 {
-  font-size: 36px;
-}
-h3 {
-  font-size: 20px;
-}
-.hero button {
+.hero-button {
   background-color: #4d5ae5;
   color: white;
   border: none;
-  font-size: 18px;
-  cursor: pointer;
-  margin-left: auto;
-  font-weight: 500;
   font-size: 16px;
-  letter-spacing: 0.04em;
-  line-height: 1.5;
+  cursor: pointer;
+  font-weight: 500;
 }
-.hero button:hover {
-  background-color: #404bbf;
-}
-.hero button:focus {
+
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
 /* Özellikler Bölümü */
-.features-container h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.features-container p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
 .feature-title {
-  font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  font-weight: 500;
   color: #2e2f42;
 }
 
 .feature-text {
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
+
 /* Takım Bölümü */
 .team {
   background-color: #f4f4fd;
   text-align: center;
 }
 
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  text-align: center;
-}
-
-.team .team-member h3 {
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.team .team-member p {
-  letter-spacing: 0.02em;
-}
-
-.team-list {
-  justify-content: center;
-}
-
-.team-list li {
+.team-member {
   background-color: #ffffff;
   list-style: none;
-}
-
-.team-list img {
-  margin-bottom: 10px;
 }
 
 /* Portfolio Bölümü */
 .portfolio {
   text-align: center;
-}
-
-.portfolio-list {
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .portfolio-list li {
@@ -204,26 +114,20 @@ h3 {
 }
 
 /* Footer */
-footer {
+.footer {
   background-color: #2e2f42;
   color: white;
 }
 
-footer .footer-logo {
+.footer-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   font-weight: 700;
   color: #4d5ae5;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
-footer .footer-logo-st {
-  color: #2e2f42;
-}
-footer .footer-text {
+.footer-text {
   color: #f4f4fd;
-  letter-spacing: 0.02em;
 }
