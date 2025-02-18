@@ -27,7 +27,7 @@ body {
   list-style: none;
 }
 
-.nav-link {
+.nav-list .navlist-li .nav-link {
   letter-spacing: 0.02em;
   color: #2e2f42;
   font-weight: 500;
