@@ -33,11 +33,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.nav-list a {
   text-decoration: none;
   color: #2e2f42;
+}
+
+.nav-link{
+  letter-spacing: 0.02em;
 }
 
 .nav-list a:hover,
@@ -138,10 +139,6 @@ body {
 }
 
 /* Portfolio Bölümü */
-.portfolio {
-  list-style: none;
-}
-
 .portfolio-titletwo {
   font-size: 36px;
   line-height: 1.11;
@@ -183,7 +180,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.footer-logost {
+.footer-accent {
   color: #2e2f42;
 }
 
