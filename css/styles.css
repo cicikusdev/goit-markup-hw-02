@@ -135,8 +135,8 @@ body {
 }
 
 /* Portfolio Bölümü */
-.portfolio-titletwo {
-  font-size: 36px;
+section.portfolio h2.portfolio-titletwo {
+  font-size: 36px !important;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -182,6 +182,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.footer-accent {
+.footer .footer-logo .footer-accent {
   color: #2e2f42;
 }
