@@ -36,7 +36,9 @@ body {
   text-decoration: none;
 }
 
-.nav-list .navlist-li .nav-link:hover,
+.nav-list .navlist-li .nav-link:hover {
+  color: #404bbf;
+}
 .nav-list .navlist-li .nav-link:hover .nav-link:focus {
   color: #404bbf;
 }
