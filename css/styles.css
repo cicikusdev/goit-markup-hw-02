@@ -36,8 +36,8 @@ body {
   text-decoration: none;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-list .navlist-li .nav-link:hover,
+.nav-list .navlist-li .nav-link:hover .nav-link:focus {
   color: #404bbf;
 }
 
@@ -161,7 +161,6 @@ section.portfolio h2.portfolio-titletwo {
 /* Footer */
 .footer {
   background-color: #2e2f42;
-  color: white;
 }
 
 .footer-logo {
