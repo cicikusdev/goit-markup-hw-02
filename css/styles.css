@@ -62,9 +62,11 @@ link:hover {
 
 .contact-info {
   font-style: normal;
+  letter-spacing: 0.02em;
 }
 .contact-info ul li a {
   color: #434455;
+  letter-spacing: 0.02em;
 }
 .contact-info ul li a:hover {
   color: #404bbf;
@@ -82,8 +84,9 @@ link:hover {
 
 .hero h1 {
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07px;
   margin-bottom: 20px;
+  letter-spacing: 0.02em;
 }
 
 h1 {
@@ -104,8 +107,15 @@ h3 {
   font-size: 18px;
   cursor: pointer;
   margin-left: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .hero button:hover {
+  background-color: #404bbf;
+}
+.hero button:focus{
   background-color: #404bbf;
 }
 
