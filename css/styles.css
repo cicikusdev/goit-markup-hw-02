@@ -36,10 +36,12 @@ body {
   text-decoration: none;
 }
 
-.nav-list .navlist-li .nav-link:hover {
-  color: #404bbf;
+.nav-link {
+  letter-spacing: 0.02em;
 }
-.nav-list .navlist-li .nav-link:hover .nav-link:focus {
+
+.nav-list .navlist-li .nav-link:hover,
+.nav-list .navlist-li .nav-link:focus {
   color: #404bbf;
 }
 
@@ -165,23 +167,8 @@ section.portfolio h2.portfolio-titletwo {
   background-color: #2e2f42;
 }
 
-.footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: #4d5ae5;
-  text-decoration: none;
-  text-transform: uppercase;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
 .footer-text {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.footer .footer-logo span {
-  color: #2e2f42;
 }
