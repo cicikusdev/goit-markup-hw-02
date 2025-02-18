@@ -108,6 +108,17 @@ body {
   text-align: center;
 }
 
+.portfolio h3{
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio p{
+  letter-spacing: 0.02em;
+}
+
 .portfolio-list li {
   list-style: none;
   background-color: #ffffff;
@@ -126,6 +137,10 @@ body {
   color: #4d5ae5;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.footer-logo span{
+  color:#2e2f42;
 }
 
 .footer-text {
