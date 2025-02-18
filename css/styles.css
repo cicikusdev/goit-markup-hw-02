@@ -62,7 +62,6 @@ body {
 .hero {
   background-color: #2e2f42;
   color: white;
-  
 }
 
 .hero-title {
@@ -107,7 +106,6 @@ body {
 /* Takım Bölümü */
 .team {
   background-color: #f4f4fd;
-  
 }
 
 .team-member {
@@ -115,26 +113,24 @@ body {
   list-style: none;
 }
 
-.section-title{
+.section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-
 }
 
-.team-name{
+.team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
 }
 
-.team-role{
+.team-role {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -146,16 +142,16 @@ body {
   list-style: none;
 }
 
-.portfolio-titletwo{
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2e2f42;
+.portfolio-titletwo {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
-.portfolio-title{
+.portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -163,7 +159,7 @@ color: #2e2f42;
   color: #2e2f42;
 }
 
-.portfolio-category{
+.portfolio-category {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -187,7 +183,7 @@ color: #2e2f42;
   letter-spacing: 0.03em;
 }
 
-.footer-logost{
+.footer-logost {
   color: #2e2f42;
 }
 
