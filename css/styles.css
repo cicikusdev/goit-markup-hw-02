@@ -88,7 +88,7 @@ link:hover {
   margin-bottom: 20px;
   letter-spacing: 0.02em;
 }
-.hero-title{
+.hero-title {
   line-height: 1.07;
 }
 h1 {
@@ -121,7 +121,7 @@ h3 {
 }
 
 /* Özellikler Bölümü */
-.features-container h3{
+.features-container h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -129,7 +129,7 @@ h3 {
   color: #2e2f42;
 }
 
-.features-container p{
+.features-container p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -142,18 +142,18 @@ h3 {
   text-align: center;
 }
 
-.team h2{
+.team h2 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
-.team .team-member h3{
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
+.team .team-member h3 {
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.team .team-member p{
+.team .team-member p {
   letter-spacing: 0.02em;
 }
 
