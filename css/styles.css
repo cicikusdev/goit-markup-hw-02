@@ -64,7 +64,7 @@ link:hover {
   font-style: normal;
   letter-spacing: 0.02em;
 }
-.contact-info ul li a {
+.contact-info .contact-list li a {
   color: #434455;
   letter-spacing: 0.02em;
 }
@@ -115,7 +115,7 @@ h3 {
 .hero button:hover {
   background-color: #404bbf;
 }
-.hero button:focus{
+.hero button:focus {
   background-color: #404bbf;
 }
 
