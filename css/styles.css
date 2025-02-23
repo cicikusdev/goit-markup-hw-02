@@ -135,7 +135,7 @@ body {
 }
 
 /* Portfolio Bölümü */
-section.portfolio h2.portfolio-titletwo {
+.portfolio-titletwo {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
