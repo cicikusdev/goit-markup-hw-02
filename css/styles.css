@@ -27,21 +27,15 @@ body {
   list-style: none;
 }
 
-.nav-list .navlist-li .nav-link {
+.nav-link {
   letter-spacing: 0.02em;
   color: #2e2f42;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
   text-decoration: none;
 }
 
-.nav-link {
-  letter-spacing: 0.02em;
-}
-
-.nav-list .navlist-li .nav-link:hover,
-.nav-list .navlist-li .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -49,8 +43,9 @@ body {
   font-style: normal;
 }
 
-.contact-info .contact-list a {
+.contact-info a {
   color: #434455;
+  text-decoration: none;
 }
 
 .contact-info a:hover,
@@ -67,7 +62,6 @@ body {
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
 }
 
@@ -138,8 +132,8 @@ body {
 }
 
 /* Portfolio Bölümü */
-section.portfolio h2.portfolio-titletwo {
-  font-size: 36px !important;
+.portfolio-title {
+  font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -147,7 +141,7 @@ section.portfolio h2.portfolio-titletwo {
   color: #2e2f42;
 }
 
-.portfolio-title {
+.portfolio-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -171,4 +165,8 @@ section.portfolio h2.portfolio-titletwo {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.footer .logo-accent {
+  color: #f4f4fd;
 }
