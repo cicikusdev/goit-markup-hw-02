@@ -50,6 +50,9 @@ body {
   text-decoration: none;
 }
 
+.contact-info li:first-child a{
+  letter-spacing: 0.02em;
+}
 .contact-info a:hover,
 .contact-info a:focus {
   color: #404bbf;
@@ -170,6 +173,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.footer .logo-accent {
+.footer .span {
   color: #2e2f42;
 }
